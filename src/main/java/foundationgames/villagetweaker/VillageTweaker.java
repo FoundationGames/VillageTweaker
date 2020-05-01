@@ -18,29 +18,28 @@ import net.minecraft.world.biome.Biomes;
 
 public class VillageTweaker implements ModInitializer {
 
-    public static final FabricPointOfInterestType EXAMPLE_POI = new FabricPointOfInterestType(
-        new Identifier("example", "example"),
-        Blocks.BLACK_WOOL,
-        1, 1
-    );
-    public static final FabricVillagerProfession EXAMPLE_VILLAGER = new FabricVillagerProfession(
-        new Identifier("example", "example"),
-        EXAMPLE_POI,
-        ImmutableSet.of(),
-        ImmutableSet.of(),
-        SoundEvents.ENTITY_SHEEP_AMBIENT
-    );
+    //public static final FabricPointOfInterestType EXAMPLE_POI = new FabricPointOfInterestType(
+    //    new Identifier("example", "example"),
+    //    Blocks.BLACK_WOOL,
+    //    1, 1
+    //);
+    //public static final FabricVillagerProfession EXAMPLE_VILLAGER = new FabricVillagerProfession(
+    //    new Identifier("example", "example"),
+    //    EXAMPLE_POI,
+    //    ImmutableSet.of(),
+    //    ImmutableSet.of(),
+    //    SoundEvents.ENTITY_SHEEP_AMBIENT
+    //);
 
     @Override
     public void onInitialize() {
-        //FabricVillagerType.createVillagerType(new Identifier("example", "example"), Biomes.FLOWER_FOREST);
-        VillageTweaker.registerPOI(EXAMPLE_POI);
-        VillageTweaker.registerProfession(EXAMPLE_VILLAGER);
-        VillageTweaker.addStructureToPool(
-                "minecraft:village/plains/houses", //pool to add to
-                "minecraft:village/snowy/houses/snowy_fisher_cottage",  //your structure
-                25 //weight
-        );
+        //VillageTweaker.registerPOI(EXAMPLE_POI);
+        //VillageTweaker.registerProfession(EXAMPLE_VILLAGER);
+        //VillageTweaker.addStructureToPool(
+                //"minecraft:village/plains/houses", //pool to add to
+                //"minecraft:village/snowy/houses/snowy_fisher_cottage",  //your structure
+                //25 //weight
+        //);
     }
 
     public static void addStructureToPool(String poolID, String elementID, int weight) {
