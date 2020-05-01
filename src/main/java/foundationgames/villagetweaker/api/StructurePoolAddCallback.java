@@ -1,4 +1,4 @@
-package draylar.structurized.api;
+package foundationgames.villagetweaker.api;
 
 import net.fabricmc.fabric.api.event.Event;
 import net.fabricmc.fabric.api.event.EventFactory;
@@ -13,5 +13,5 @@ public interface StructurePoolAddCallback {
             }
     );
 
-    void add(FabricStructurePool initialPool);
+    void add(StructurePoolModifier initialPool);
 }

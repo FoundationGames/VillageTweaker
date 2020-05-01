@@ -1,14 +1,14 @@
-package draylar.structurized.api;
+package foundationgames.villagetweaker.api;
 
-import draylar.structurized.mixin.StructurePoolAccessor;
+import foundationgames.villagetweaker.mixin.StructurePoolAccessor;
 import net.minecraft.structure.pool.StructurePool;
 import net.minecraft.structure.pool.StructurePoolElement;
 
-public class FabricStructurePool {
+public class StructurePoolModifier {
 
     private final StructurePool underlying;
 
-    public FabricStructurePool(StructurePool underlying) {
+    public StructurePoolModifier(StructurePool underlying) {
         this.underlying = underlying;
     }
 

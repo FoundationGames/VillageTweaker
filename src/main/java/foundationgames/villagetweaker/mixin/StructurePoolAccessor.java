@@ -1,4 +1,4 @@
-package draylar.structurized.mixin;
+package foundationgames.villagetweaker.mixin;
 
 import net.minecraft.structure.pool.StructurePool;
 import net.minecraft.structure.pool.StructurePoolElement;

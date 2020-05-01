@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "structurized",
+  "id": "villagetweaker",
   "version": "${version}",
-  "name": "Structurized",
+  "name": "VillageTweaker",
   "authors": [
+    "FoundationGames",
     "Draylar"
   ],
   "license": "MIT",
@@ -11,12 +12,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "draylar.structurized.Structurized"
+      "foundationgames.villagetweaker.VillageTweaker"
     ]
   },
   "mixins": [
-    "structurized.mixins.json"
+    "villagetweaker.mixins.json"
   ],
+  "accessWidener": "villagetweaker.accesswidener",
   "depends": {
     "fabricloader": ">=0.8.2+build.194",
     "fabric": "*",

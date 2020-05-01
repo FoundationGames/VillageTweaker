@@ -1,7 +1,7 @@
-package draylar.structurized.mixin;
+package foundationgames.villagetweaker.mixin;
 
-import draylar.structurized.api.FabricStructurePool;
-import draylar.structurized.api.StructurePoolAddCallback;
+import foundationgames.villagetweaker.api.StructurePoolModifier;
+import foundationgames.villagetweaker.api.StructurePoolAddCallback;
 import net.minecraft.structure.pool.StructurePool;
 import net.minecraft.structure.pool.StructurePoolRegistry;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,6 +14,6 @@ public class StructurePoolRegistryMixin {
 
     @Inject(method = "add", at = @At("HEAD"))
     private void injectAdd(StructurePool pool, CallbackInfo ci) {
-        StructurePoolAddCallback.EVENT.invoker().add(new FabricStructurePool(pool));
+        StructurePoolAddCallback.EVENT.invoker().add(new StructurePoolModifier(pool));
     }
 }
