@@ -1,0 +1,181 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 4/30/20 3:25 PM
+Description: Ticking entity
+
+java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.village.TradeOffers
+	at net.minecraft.entity.passive.VillagerEntity.fillRecipes(VillagerEntity.java:867)
+	at net.minecraft.entity.passive.AbstractTraderEntity.getOffers(AbstractTraderEntity.java:111)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.loadPossibleOffers(HoldTradeOffersTask.java:121)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.setupOffers(HoldTradeOffersTask.java:108)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.keepRunning(HoldTradeOffersTask.java:78)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.keepRunning(HoldTradeOffersTask.java:20)
+	at net.minecraft.entity.ai.brain.task.Task.tick(Task.java:63)
+	at net.minecraft.entity.ai.brain.Brain.method_18901(Brain.java:272)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at net.minecraft.entity.ai.brain.Brain.updateTasks(Brain.java:272)
+	at net.minecraft.entity.ai.brain.Brain.tick(Brain.java:223)
+	at net.minecraft.entity.passive.VillagerEntity.mobTick(VillagerEntity.java:255)
+	at net.minecraft.entity.mob.MobEntity.tickNewAi(MobEntity.java:641)
+	at net.minecraft.entity.LivingEntity.tickMovement(LivingEntity.java:2331)
+	at net.minecraft.entity.mob.MobEntity.tickMovement(MobEntity.java:490)
+	at net.minecraft.entity.passive.PassiveEntity.tickMovement(PassiveEntity.java:159)
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2173)
+	at net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:295)
+	at net.minecraft.entity.passive.VillagerEntity.tick(VillagerEntity.java:292)
+	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:602)
+	at net.minecraft.world.World.tickEntity(World.java:534)
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:398)
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:854)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:793)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:130)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:655)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.entity.passive.VillagerEntity.fillRecipes(VillagerEntity.java:867)
+	at net.minecraft.entity.passive.AbstractTraderEntity.getOffers(AbstractTraderEntity.java:111)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.loadPossibleOffers(HoldTradeOffersTask.java:121)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.setupOffers(HoldTradeOffersTask.java:108)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.keepRunning(HoldTradeOffersTask.java:78)
+	at net.minecraft.entity.ai.brain.task.HoldTradeOffersTask.keepRunning(HoldTradeOffersTask.java:20)
+	at net.minecraft.entity.ai.brain.task.Task.tick(Task.java:63)
+	at net.minecraft.entity.ai.brain.Brain.method_18901(Brain.java:272)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1628)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:270)
+	at java.util.TreeMap$ValueSpliterator.forEachRemaining(TreeMap.java:2897)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at net.minecraft.entity.ai.brain.Brain.updateTasks(Brain.java:272)
+	at net.minecraft.entity.ai.brain.Brain.tick(Brain.java:223)
+	at net.minecraft.entity.passive.VillagerEntity.mobTick(VillagerEntity.java:255)
+	at net.minecraft.entity.mob.MobEntity.tickNewAi(MobEntity.java:641)
+	at net.minecraft.entity.LivingEntity.tickMovement(LivingEntity.java:2331)
+	at net.minecraft.entity.mob.MobEntity.tickMovement(MobEntity.java:490)
+	at net.minecraft.entity.passive.PassiveEntity.tickMovement(PassiveEntity.java:159)
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2173)
+	at net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:295)
+	at net.minecraft.entity.passive.VillagerEntity.tick(VillagerEntity.java:292)
+	at net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:602)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:villager (net.minecraft.entity.passive.VillagerEntity)
+	Entity ID: 509
+	Entity Name: Villager
+	Entity's Exact location: -89.50, 65.00, 18.50
+	Entity's Block location: World: (-90,65,18), Chunk: (at 6,4,2 in -6,1; contains blocks -96,0,16 to -81,255,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.tickEntity(World.java:534)
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld.java:398)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayerEntity['Player423'/276, l='villidger flower', x=-91.45, y=66.75, z=19.04]]
+	Chunk stats: ServerChunkCache: 2434
+	Level dimension: minecraft:overworld
+	Level name: villidger flower
+	Level seed: -6036612643843882488
+	Level generator: ID 05 - buffet, ver 0. Features enabled: true
+	Level generator options: {biome_source:{options:{biomes:["minecraft:flower_forest"]},type:"minecraft:fixed"},chunk_generator:{options:{default_fluid:"minecraft:water",default_block:"minecraft:stone"},type:"minecraft:surface"}}
+	Level spawn location: World: (0,63,5), Chunk: (at 0,3,5 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 1929 game time, 1929 day time
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 35374 (now: false), thunder time: 83955 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:854)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:793)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:130)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:655)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 987341960 bytes (941 MB) / 1688207360 bytes (1610 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 6
+	JVM Flags: 1 total; -Xmx4096m
+	Fabric Mods: 
+		fabric: Fabric API 0.7.1+build.301-1.15
+		fabric-api-base: Fabric API Base 0.1.2+b7f9825d0c
+		fabric-biomes-v1: Fabric Biomes (v1) 0.1.5+3b05f68e0c
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.4+c6a8ea890c
+		fabric-climbable-api-v1: Fabric Climbable API (v1) 1.0.0+e40501d40c
+		fabric-commands-v0: Fabric Commands (v0) 0.1.2+b7f9825d0c
+		fabric-containers-v0: Fabric Containers (v0) 0.1.3+b7f9825d0c
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.1.3+b7f9825d0c
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.2+b7f9825d0c
+		fabric-dimensions-v1: fabric-dimensions-v1 0.3.0+2ad156310c
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.3.0+fac69e320c
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.1.2+003643510c
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.1.6+ec40b2e10c
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.1.1+dfdb52d60c
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 0.1.5+e08a73050c
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.2+ec951ea40c
+		fabric-models-v0: Fabric Models (v0) 0.1.0+dfdb52d60c
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.3+e08a73050c
+		fabric-networking-v0: Fabric Networking (v0) 0.1.7+003643510c
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.1.4+ec951ea40c
+		fabric-particles-v1: fabric-particles-v1 0.1.2+ad2f81bd0c
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.2.6+f3d8141b0c
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.2.10+f08b61330c
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.2.23+9290e2ed0c
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 2.0.1+5a0f9a600c
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.3+b7f9825d0c
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.6+12515ed90c
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.0+534104900c
+		fabric-rendering-v1: Fabric Rendering (v1) 0.1.0+003643510c
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.1.10+06c939b30c
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 0.1.3+abd915800c
+		fabric-textures-v0: Fabric Textures (v0) 1.0.4+821cdba70c
+		fabric-tool-attribute-api-v1: Fabric Tool Attribute API (v1) 1.0.2+915c44630c
+		fabricloader: Fabric Loader 0.8.2+build.194
+		minecraft: Minecraft 1.15.2
+		villagetweaker: VillageTweaker 1.0.0
+	Player Count: 1 / 8; [ServerPlayerEntity['Player423'/276, l='villidger flower', x=-91.45, y=66.75, z=19.04]]
+	Data Packs: vanilla, fabric/fabric-tool-attribute-api-v1 (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'

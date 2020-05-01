@@ -1,0 +1,100 @@
+[16:57:53] [main/INFO] (FabricLoader) Loading for game Minecraft 1.15.2
+[16:57:54] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 36 mods: minecraft@1.15.2, fabric-networking-blockentity-v0@0.2.3+e08a73050c, fabric-renderer-api-v1@0.2.10+f08b61330c, fabric-keybindings-v0@0.1.1+dfdb52d60c, fabricloader@0.8.2+build.194, fabric-tool-attribute-api-v1@1.0.2+915c44630c, fabric-renderer-indigo@0.2.23+9290e2ed0c, fabric-containers-v0@0.1.3+b7f9825d0c, fabric-dimensions-v1@0.3.0+2ad156310c, fabric-biomes-v1@0.1.5+3b05f68e0c, fabric-crash-report-info-v1@0.1.2+b7f9825d0c, fabric-events-interaction-v0@0.3.0+fac69e320c, villagetweaker@1.0.0, fabric-api-base@0.1.2+b7f9825d0c, fabric-rendering-v0@1.1.0+534104900c, fabric-rendering-v1@0.1.0+003643510c, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d0c, fabric-resource-loader-v0@0.1.10+06c939b30c, fabric-textures-v0@1.0.4+821cdba70c, fabric-content-registries-v0@0.1.3+b7f9825d0c, fabric-tag-extensions-v0@0.1.3+abd915800c, fabric-rendering-fluids-v1@0.1.6+12515ed90c, fabric-registry-sync-v0@0.2.6+f3d8141b0c, fabric-commands-v0@0.1.2+b7f9825d0c, fabric-blockrenderlayer-v1@1.1.4+c6a8ea890c, fabric-mining-levels-v0@0.1.2+ec951ea40c, fabric-climbable-api-v1@1.0.0+e40501d40c, fabric-renderer-registries-v1@2.0.1+5a0f9a600c, fabric-events-lifecycle-v0@0.1.2+003643510c, fabric-loot-tables-v1@0.1.5+e08a73050c, fabric@0.7.1+build.301-1.15, fabric-models-v0@0.1.0+dfdb52d60c, fabric-particles-v1@0.1.2+ad2f81bd0c, fabric-item-groups-v0@0.1.6+ec40b2e10c, fabric-networking-v0@0.1.7+003643510c, fabric-object-builders-v0@0.1.4+ec951ea40c
+[16:57:54] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/prave/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8+build.18/af077ad2845a00cde186fa2c99c4dd32bd2a2766/sponge-mixin-0.8+build.18.jar Service=Knot/Fabric Env=CLIENT
+[16:57:54] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-networking-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-biomes-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-indigo-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-data-attachment-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-loot-tables-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-dimensions-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-registries-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-textures-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-models-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-keybindings-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-blockrenderlayer-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-events-lifecycle-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-fluids-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-particles-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-object-builders-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-tag-extensions-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-tool-attribute-api-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-commands-v0-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-climbable-api-v1-refmap.json using remapper chain
+[16:57:55] [main/INFO] (Minecraft) Setting user: Player300
+[16:57:58] [main/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[16:57:59] [main/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[16:58:01] [main/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[16:58:01] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Networking Block Entity (v0), Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Biomes (v1), Fabric Crash Report Info (v1), Fabric Events Interaction (v0), VillageTweaker, Fabric API Base, Fabric Rendering (v0), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Fabric Registry Sync (v0), Fabric Commands (v0), Fabric BlockRenderLayer Registration (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Events Lifecycle (v0), Fabric Loot Tables (v1), Fabric API, Fabric Models (v0), Fabric Item Groups (v0), Fabric Networking (v0), Fabric Object Builders (v0)
+[16:58:03] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[16:58:08] [main/INFO] (Minecraft) OpenAL initialized.
+[16:58:08] [main/INFO] (Minecraft) Sound engine started
+[16:58:08] [main/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:58:08] [main/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:58:09] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:58:09] [main/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:58:09] [main/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:58:40] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:58:40] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:58:40] [main/WARN] (Minecraft) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.15.2
+[16:58:40] [Server thread/INFO] (Minecraft) Generating keypair
+[16:58:40] [Server thread/INFO] (Minecraft) [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:58:40] [Server thread/INFO] (Minecraft) Found new data pack fabric/fabric-tool-attribute-api-v1, loading it automatically
+[16:58:40] [Server thread/INFO] (Minecraft) Found new data pack vanilla, loading it automatically
+[16:58:40] [Server thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Tool Attribute API (v1)
+[16:58:41] [Server thread/INFO] (Minecraft) Loaded 6 recipes
+[16:58:41] [Server thread/INFO] (Minecraft) Loaded 825 advancements
+[16:58:42] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[16:58:42] [main/INFO] (Minecraft) Preparing spawn area: 0%
+[16:58:43] [main/INFO] (Minecraft) Preparing spawn area: 2%
+[16:58:43] [main/INFO] (Minecraft) Preparing spawn area: 6%
+[16:58:44] [main/INFO] (Minecraft) Preparing spawn area: 11%
+[16:58:44] [main/INFO] (Minecraft) Preparing spawn area: 17%
+[16:58:45] [main/INFO] (Minecraft) Preparing spawn area: 25%
+[16:58:45] [main/INFO] (Minecraft) Preparing spawn area: 32%
+[16:58:46] [main/INFO] (Minecraft) Preparing spawn area: 40%
+[16:58:46] [main/INFO] (Minecraft) Preparing spawn area: 48%
+[16:58:47] [main/INFO] (Minecraft) Preparing spawn area: 57%
+[16:58:47] [main/INFO] (Minecraft) Preparing spawn area: 65%
+[16:58:48] [main/INFO] (Minecraft) Preparing spawn area: 73%
+[16:58:48] [main/INFO] (Minecraft) Preparing spawn area: 82%
+[16:58:49] [main/INFO] (Minecraft) Preparing spawn area: 90%
+[16:58:49] [main/INFO] (Minecraft) Preparing spawn area: 98%
+[16:58:49] [main/INFO] (Minecraft) Time elapsed: 7101 ms
+[16:58:49] [Server thread/INFO] (Minecraft) Changing view distance to 11, from 10
+[16:58:50] [Server thread/INFO] (Minecraft) Player300[local:E:8a183f55] logged in with entity id 65 at (-17.5, 4.0, 57.5)
+[16:58:50] [Server thread/INFO] (Minecraft) Player300 joined the game
+[16:58:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:58:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:overworld
+[16:58:51] [main/INFO] (Minecraft) Loaded 0 advancements
+[16:58:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:the_end
+[16:58:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:the_nether
+[16:59:09] [main/INFO] (Minecraft) Loaded 5 advancements
+[16:59:19] [main/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.slime.jump_small
+[16:59:20] [main/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.slime.squish_small
+[16:59:41] [main/INFO] (Minecraft) Loaded 39 advancements
+[16:59:50] [main/INFO] (Minecraft) [CHAT] Saved screenshot as 2020-04-30_16.59.50.png
+[16:59:52] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[16:59:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:overworld
+[16:59:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:the_end
+[16:59:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'pooe'/minecraft:the_nether

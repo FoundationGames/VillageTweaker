@@ -1,0 +1,547 @@
+[16:57:53] [main/INFO] (FabricLoader) Loading for game Minecraft 1.15.2
+[16:57:53] [main/DEBUG] (FabricLoader) Requesting deobfuscation of minecraft-1.15.2-projectmapped-net.fabricmc.yarn-1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/1.15.2-projectmapped-net.fabricmc.yarn-1.15.2+build.15-v2/minecraft-1.15.2-projectmapped-net.fabricmc.yarn-1.15.2+build.15-v2.jar to classpath.
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) Found game constructor: net.minecraft.client.main.Main -> net.minecraft.client.MinecraftClient
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) Patching game constructor <init>(Lnet/minecraft/client/RunArgs;)V
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) Run directory field is thought to be net/minecraft/client/MinecraftClient/runDirectory
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) Applying brand name hook to net/minecraft/client/ClientBrandRetriever::getClientModName
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+[16:57:53] [main/DEBUG] (FabricLoader|EntrypointTransformer) [EntrypointTransformer] Patched 3 classes.
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Adding dev classpath directories to classpath.
+[16:57:53] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/build/classes/java/main/ to classpath.
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-textures-v0-1.0.4+821cdba70c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-crash-report-info-v1-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-textures-v0-1.0.4+821cdba70c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loot-tables-v1-0.1.5+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tag-extensions-v0-0.1.3+abd915800c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-crash-report-info-v1-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-data-attachment-v1-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-0.7.1+build.301-1.15@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-v0-0.1.7+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loot-tables-v1-0.1.5+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-blockrenderlayer-v1-1.1.4+c6a8ea890c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-blockentity-v0-0.2.3+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-dimensions-v1-0.3.0+2ad156310c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tool-attribute-api-v1-1.0.2+915c44630c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-containers-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-data-attachment-v1-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-indigo-0.2.23+9290e2ed0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-resource-loader-v0-0.1.10+06c939b30c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-fluids-v1-0.1.6+12515ed90c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-base-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tag-extensions-v0-0.1.3+abd915800c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-content-registries-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-models-v0-0.1.0+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-interaction-v0-0.3.0+fac69e320c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-keybindings-v0-0.1.1+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v0-1.1.0+534104900c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-lifecycle-v0-0.1.2+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-climbable-api-v1-1.0.0+e40501d40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-biomes-v1-0.1.5+3b05f68e0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v1-0.1.0+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-particles-v1-0.1.2+ad2f81bd0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-registry-sync-v0-0.2.6+f3d8141b0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-mining-levels-v0-0.1.2+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-api-v1-0.2.10+f08b61330c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-registries-v1-2.0.1+5a0f9a600c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-commands-v0-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-item-groups-v0-0.1.6+ec40b2e10c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/build/resources/main/
+[16:57:53] [main/DEBUG] (Fabric|Loader) [ClasspathModCandidateFinder] Processing /C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-object-builders-v0-0.1.4+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-data-attachment-v1-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-rendering-data-attachment-v1@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tag-extensions-v0-0.1.3+abd915800c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-tag-extensions-v0@0.1.3+abd915800c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-crash-report-info-v1-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-crash-report-info-v1@0.1.2+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loot-tables-v1-0.1.5+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-loot-tables-v1@0.1.5+e08a73050c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-textures-v0-1.0.4+821cdba70c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-textures-v0@1.0.4+821cdba70c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-rendering-data-attachment-v1@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-tag-extensions-v0@0.1.3+abd915800c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-textures-v0@1.0.4+821cdba70c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-0.7.1+build.301-1.15@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-blockrenderlayer-v1-1.1.4+c6a8ea890c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-v0-0.1.7+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-loot-tables-v1@0.1.5+e08a73050c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-blockentity-v0-0.2.3+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-crash-report-info-v1@0.1.2+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-dimensions-v1-0.3.0+2ad156310c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-0.7.1+build.301-1.15@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric@0.7.1+build.301-1.15}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric@0.7.1+build.301-1.15}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tool-attribute-api-v1-1.0.2+915c44630c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-dimensions-v1-0.3.0+2ad156310c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-dimensions-v1@0.3.0+2ad156310c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-dimensions-v1@0.3.0+2ad156310c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-containers-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-blockentity-v0-0.2.3+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-networking-blockentity-v0@0.2.3+e08a73050c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-networking-blockentity-v0@0.2.3+e08a73050c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-indigo-0.2.23+9290e2ed0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-v0-0.1.7+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-networking-v0@0.1.7+003643510c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-networking-v0@0.1.7+003643510c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-resource-loader-v0-0.1.10+06c939b30c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-blockrenderlayer-v1-1.1.4+c6a8ea890c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-blockrenderlayer-v1@1.1.4+c6a8ea890c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-blockrenderlayer-v1@1.1.4+c6a8ea890c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-fluids-v1-0.1.6+12515ed90c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-resource-loader-v0-0.1.10+06c939b30c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-resource-loader-v0@0.1.10+06c939b30c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-resource-loader-v0@0.1.10+06c939b30c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-base-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-indigo-0.2.23+9290e2ed0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-renderer-indigo@0.2.23+9290e2ed0c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-renderer-indigo@0.2.23+9290e2ed0c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-content-registries-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-containers-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-containers-v0@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-containers-v0@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-models-v0-0.1.0+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tool-attribute-api-v1-1.0.2+915c44630c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-tool-attribute-api-v1@1.0.2+915c44630c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-tool-attribute-api-v1@1.0.2+915c44630c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-interaction-v0-0.3.0+fac69e320c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-models-v0-0.1.0+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-models-v0@0.1.0+dfdb52d60c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-models-v0@0.1.0+dfdb52d60c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-keybindings-v0-0.1.1+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-content-registries-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-content-registries-v0@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-content-registries-v0@0.1.3+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v0-1.1.0+534104900c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-base-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-api-base@0.1.2+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-api-base@0.1.2+b7f9825d0c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-lifecycle-v0-0.1.2+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-fluids-v1-0.1.6+12515ed90c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-rendering-fluids-v1@0.1.6+12515ed90c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-rendering-fluids-v1@0.1.6+12515ed90c}
+[16:57:53] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-climbable-api-v1-1.0.0+e40501d40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-lifecycle-v0-0.1.2+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-events-lifecycle-v0@0.1.2+003643510c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-events-lifecycle-v0@0.1.2+003643510c}
+[16:57:53] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-biomes-v1-0.1.5+3b05f68e0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v0-1.1.0+534104900c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-rendering-v0@1.1.0+534104900c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-rendering-v0@1.1.0+534104900c}
+[16:57:53] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v1-0.1.0+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-keybindings-v0-0.1.1+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-keybindings-v0@0.1.1+dfdb52d60c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-keybindings-v0@0.1.1+dfdb52d60c}
+[16:57:53] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-particles-v1-0.1.2+ad2f81bd0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-interaction-v0-0.3.0+fac69e320c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-events-interaction-v0@0.3.0+fac69e320c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-events-interaction-v0@0.3.0+fac69e320c}
+[16:57:53] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-registry-sync-v0-0.2.6+f3d8141b0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-particles-v1-0.1.2+ad2f81bd0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-particles-v1@0.1.2+ad2f81bd0c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-particles-v1@0.1.2+ad2f81bd0c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-mining-levels-v0-0.1.2+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v1-0.1.0+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-rendering-v1@0.1.0+003643510c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-rendering-v1@0.1.0+003643510c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-api-v1-0.2.10+f08b61330c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-biomes-v1-0.1.5+3b05f68e0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-biomes-v1@0.1.5+3b05f68e0c}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-biomes-v1@0.1.5+3b05f68e0c}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-registries-v1-2.0.1+5a0f9a600c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-climbable-api-v1-1.0.0+e40501d40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-climbable-api-v1@1.0.0+e40501d40c}
+[16:57:54] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-climbable-api-v1@1.0.0+e40501d40c}
+[16:57:54] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-commands-v0-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-registries-v1-2.0.1+5a0f9a600c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-renderer-registries-v1@2.0.1+5a0f9a600c}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-renderer-registries-v1@2.0.1+5a0f9a600c}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-api-v1-0.2.10+f08b61330c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-renderer-api-v1@0.2.10+f08b61330c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-renderer-api-v1@0.2.10+f08b61330c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-item-groups-v0-0.1.6+ec40b2e10c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-mining-levels-v0-0.1.2+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-mining-levels-v0@0.1.2+ec951ea40c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-mining-levels-v0@0.1.2+ec951ea40c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/build/resources/main/
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/build/resources/main/ as ModCandidate{villagetweaker@1.0.0}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{villagetweaker@1.0.0}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Testing file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-object-builders-v0-0.1.4+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar
+[16:57:54] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-registry-sync-v0-0.2.6+f3d8141b0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-registry-sync-v0@0.2.6+f3d8141b0c}
+[16:57:54] [ForkJoinPool-1-worker-5/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-registry-sync-v0@0.2.6+f3d8141b0c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-object-builders-v0-0.1.4+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-object-builders-v0@0.1.4+ec951ea40c}
+[16:57:54] [ForkJoinPool-1-worker-2/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-object-builders-v0@0.1.4+ec951ea40c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-item-groups-v0-0.1.6+ec40b2e10c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-item-groups-v0@0.1.6+ec40b2e10c}
+[16:57:54] [ForkJoinPool-1-worker-3/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-item-groups-v0@0.1.6+ec40b2e10c}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabricloader@0.8.2+build.194}
+[16:57:54] [ForkJoinPool-1-worker-4/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabricloader@0.8.2+build.194}
+[16:57:54] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Adding file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-commands-v0-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar as ModCandidate{fabric-commands-v0@0.1.2+b7f9825d0c}
+[16:57:54] [ForkJoinPool-1-worker-1/DEBUG] (Fabric|Loader) Searching for nested JARs in ModCandidate{fabric-commands-v0@0.1.2+b7f9825d0c}
+[16:57:54] [main/DEBUG] (Fabric|Loader) Mod resolution detection time: 145ms
+[16:57:54] [main/DEBUG] (Fabric|Loader) Mod resolution time: 5ms
+[16:57:54] [main/INFO] (Fabric|Loader) [FabricLoader] Loading 36 mods: minecraft@1.15.2, fabric-networking-blockentity-v0@0.2.3+e08a73050c, fabric-renderer-api-v1@0.2.10+f08b61330c, fabric-keybindings-v0@0.1.1+dfdb52d60c, fabricloader@0.8.2+build.194, fabric-tool-attribute-api-v1@1.0.2+915c44630c, fabric-renderer-indigo@0.2.23+9290e2ed0c, fabric-containers-v0@0.1.3+b7f9825d0c, fabric-dimensions-v1@0.3.0+2ad156310c, fabric-biomes-v1@0.1.5+3b05f68e0c, fabric-crash-report-info-v1@0.1.2+b7f9825d0c, fabric-events-interaction-v0@0.3.0+fac69e320c, villagetweaker@1.0.0, fabric-api-base@0.1.2+b7f9825d0c, fabric-rendering-v0@1.1.0+534104900c, fabric-rendering-v1@0.1.0+003643510c, fabric-rendering-data-attachment-v1@0.1.3+b7f9825d0c, fabric-resource-loader-v0@0.1.10+06c939b30c, fabric-textures-v0@1.0.4+821cdba70c, fabric-content-registries-v0@0.1.3+b7f9825d0c, fabric-tag-extensions-v0@0.1.3+abd915800c, fabric-rendering-fluids-v1@0.1.6+12515ed90c, fabric-registry-sync-v0@0.2.6+f3d8141b0c, fabric-commands-v0@0.1.2+b7f9825d0c, fabric-blockrenderlayer-v1@1.1.4+c6a8ea890c, fabric-mining-levels-v0@0.1.2+ec951ea40c, fabric-climbable-api-v1@1.0.0+e40501d40c, fabric-renderer-registries-v1@2.0.1+5a0f9a600c, fabric-events-lifecycle-v0@0.1.2+003643510c, fabric-loot-tables-v1@0.1.5+e08a73050c, fabric@0.7.1+build.301-1.15, fabric-models-v0@0.1.0+dfdb52d60c, fabric-particles-v1@0.1.2+ad2f81bd0c, fabric-item-groups-v0@0.1.6+ec40b2e10c, fabric-networking-v0@0.1.7+003643510c, fabric-object-builders-v0@0.1.4+ec951ea40c
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/1.15.2-projectmapped-net.fabricmc.yarn-1.15.2+build.15-v2/minecraft-1.15.2-projectmapped-net.fabricmc.yarn-1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-blockentity-v0-0.2.3+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-api-v1-0.2.10+f08b61330c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-keybindings-v0-0.1.1+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tool-attribute-api-v1-1.0.2+915c44630c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-indigo-0.2.23+9290e2ed0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-containers-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-dimensions-v1-0.3.0+2ad156310c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-biomes-v1-0.1.5+3b05f68e0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-crash-report-info-v1-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-interaction-v0-0.3.0+fac69e320c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/build/resources/main/ to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-base-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v0-1.1.0+534104900c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-v1-0.1.0+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-data-attachment-v1-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-resource-loader-v0-0.1.10+06c939b30c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-textures-v0-1.0.4+821cdba70c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-content-registries-v0-0.1.3+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-tag-extensions-v0-0.1.3+abd915800c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-rendering-fluids-v1-0.1.6+12515ed90c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-registry-sync-v0-0.2.6+f3d8141b0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-commands-v0-0.1.2+b7f9825d0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-blockrenderlayer-v1-1.1.4+c6a8ea890c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-mining-levels-v0-0.1.2+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-climbable-api-v1-1.0.0+e40501d40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-renderer-registries-v1-2.0.1+5a0f9a600c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-events-lifecycle-v0-0.1.2+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loot-tables-v1-0.1.5+e08a73050c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-api-0.7.1+build.301-1.15@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-models-v0-0.1.0+dfdb52d60c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-particles-v1-0.1.2+ad2f81bd0c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-item-groups-v0-0.1.6+ec40b2e10c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-networking-v0-0.1.7+003643510c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (FabricLoader) [Knot] Proposed file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-object-builders-v0-0.1.4+ec951ea40c@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar to classpath.
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.client.indigo.Indigo for mod fabric-renderer-indigo (key client)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.client.container.ScreenProviderRegistryImpl::init for mod fabric-containers-v0 (key client)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.dimension.FabricDimensionClientInit::onClientInit for mod fabric-dimensions-v1 (key client)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouterClient for mod fabric-events-interaction-v0 (key client)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer foundationgames.villagetweaker.VillageTweaker for mod villagetweaker (key main)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.client.rendering.RenderingCallbackInvoker for mod fabric-rendering-v0 (key client)
+[16:57:54] [main/DEBUG] (Fabric|Loader) Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
+[16:57:54] [main/DEBUG] (FabricLoader) Loading mappings took 105 ms
+[16:57:54] [main/DEBUG] (mixin) Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[16:57:54] [main/DEBUG] (mixin) Mixin bootstrap service org.spongepowered.asm.service.modlauncher.MixinServiceModLauncherBootstrap is not available: ModLauncher is not available
+[16:57:54] [main/DEBUG] (mixin) MixinService [ModLauncher] is not valid
+[16:57:54] [main/DEBUG] (mixin) MixinService [Knot/Fabric] was successfully booted in sun.misc.Launcher$AppClassLoader@18b4aac2
+[16:57:54] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/prave/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.8+build.18/af077ad2845a00cde186fa2c99c4dd32bd2a2766/sponge-mixin-0.8+build.18.jar Service=Knot/Fabric Env=CLIENT
+[16:57:54] [main/DEBUG] (mixin) Initialising Mixin Platform Manager
+[16:57:54] [main/DEBUG] (mixin) Adding mixin platform agents for container ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)
+[16:57:54] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)
+[16:57:54] [main/DEBUG] (mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)
+[16:57:54] [main/DEBUG] (mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)
+[16:57:54] [main/DEBUG] (mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)
+[16:57:54] [main/DEBUG] (mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)]
+[16:57:54] [main/DEBUG] (mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:/C:/Users/prave/Documents/FabricMCModding/VillageTweaker/villagetweaker1.15/.gradle/loom-cache/remapped_mods/fabric-loader-0.8.2+build.194@net.fabricmc.yarn.1_15_2.1.15.2+build.15-v2.jar)]
+[16:57:54] [main/INFO] (Fabric|MixinBootstrap) Loaded Fabric development mappings for mixin remapper!
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-networking-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-networking-blockentity-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-biomes-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-containers-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-renderer-indigo.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-rendering-data-attachment-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-events-interaction-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-loot-tables-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-dimensions-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-renderer-registries-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-textures-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-registry-sync-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-models-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-keybindings-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-blockrenderlayer-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-renderer-api-v1.debughud.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-containers-v0.accurate.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-events-lifecycle-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-rendering-fluids-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-resource-loader-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-particles-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-object-builders-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-tag-extensions-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-tool-attribute-api-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-rendering-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-item-groups-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-content-registries-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-crash-report-info-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-commands-v0.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-renderer-api-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config fabric-climbable-api-v1.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Mixin config villagetweaker.mixins.json does not specify "minVersion" property
+[16:57:54] [main/DEBUG] (mixin) Error cleaning class output directory: .mixin.out\class: failed to delete one or more files; see suppressed exceptions for details
+[16:57:54] [main/DEBUG] (Fabric|Loader) No subscribers for entrypoint 'preLaunch'
+[16:57:54] [main/DEBUG] (mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-networking-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-networking-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-networking-blockentity-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-networking-blockentity-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-biomes-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-biomes-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-containers-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-renderer-indigo.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-indigo-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-rendering-data-attachment-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-data-attachment-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-events-interaction-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-events-interaction-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-loot-tables-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-loot-tables-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-dimensions-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-dimensions-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-renderer-registries-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-registries-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-textures-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-textures-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-registry-sync-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-registry-sync-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-models-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-models-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-keybindings-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-keybindings-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-blockrenderlayer-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-blockrenderlayer-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-renderer-api-v1.debughud.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-containers-v0.accurate.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-containers-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-events-lifecycle-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-events-lifecycle-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-rendering-fluids-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-fluids-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-resource-loader-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-resource-loader-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-particles-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-particles-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-object-builders-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-object-builders-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-tag-extensions-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-tag-extensions-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-tool-attribute-api-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-tool-attribute-api-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-rendering-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-rendering-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-item-groups-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-item-groups-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-content-registries-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-content-registries-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-crash-report-info-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-crash-report-info-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-commands-v0.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-commands-v0-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-renderer-api-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-renderer-api-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config fabric-climbable-api-v1.mixins.json
+[16:57:54] [main/INFO] (mixin) Remapping refMap fabric-climbable-api-v1-refmap.json using remapper chain
+[16:57:54] [main/DEBUG] (mixin) Selecting config villagetweaker.mixins.json
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-networking-v0.mixins.json (7)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-networking-blockentity-v0.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-biomes-v1.mixins.json (6)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-containers-v0.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-renderer-indigo.mixins.json (7)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-rendering-data-attachment-v1.mixins.json (3)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-events-interaction-v0.mixins.json (5)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-loot-tables-v1.mixins.json (5)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-dimensions-v1.mixins.json (9)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-renderer-registries-v1.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-textures-v0.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-registry-sync-v0.mixins.json (10)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-models-v0.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-keybindings-v0.mixins.json (3)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-blockrenderlayer-v1.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-renderer-api-v1.debughud.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-containers-v0.accurate.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-events-lifecycle-v0.mixins.json (4)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-rendering-fluids-v1.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-resource-loader-v0.mixins.json (7)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-particles-v1.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-object-builders-v0.mixins.json (4)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-tag-extensions-v0.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-tool-attribute-api-v1.mixins.json (3)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-rendering-v1.mixins.json (4)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-item-groups-v0.mixins.json (3)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-content-registries-v0.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-crash-report-info-v1.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-commands-v0.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-renderer-api-v1.mixins.json (2)
+[16:57:54] [main/DEBUG] (mixin) Preparing fabric-climbable-api-v1.mixins.json (1)
+[16:57:54] [main/DEBUG] (mixin) Preparing villagetweaker.mixins.json (3)
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[16:57:54] [main/DEBUG] (mixin) Prepared 105 mixins in 0.290 sec (2.8ms avg) (0ms load, 0ms transform, 0ms plugin)
+[16:57:54] [main/DEBUG] (mixin) Mixing MixinLivingEntity from fabric-tool-attribute-api-v1.mixins.json into net.minecraft.entity.LivingEntity
+[16:57:54] [main/DEBUG] (mixin) Mixing MixinLivingEntity from fabric-climbable-api-v1.mixins.json into net.minecraft.entity.LivingEntity
+[16:57:55] [main/DEBUG] (mixin) Mixing EntityHooks from fabric-dimensions-v1.mixins.json into net.minecraft.entity.Entity
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinEntity from fabric-dimensions-v1.mixins.json into net.minecraft.entity.Entity
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinWorld from fabric-dimensions-v1.mixins.json into net.minecraft.world.World
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinWorld from fabric-events-lifecycle-v0.mixins.json into net.minecraft.world.World
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinViewableWorld from fabric-rendering-data-attachment-v1.mixins.json into net.minecraft.world.WorldView
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinCrashReport from fabric-crash-report-info-v1.mixins.json into net.minecraft.util.crash.CrashReport
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$fillSystemDetails$0()Ljava/lang/String; to md882e70$lambda$fillSystemDetails$0$0 in fabric-crash-report-info-v1.mixins.json:MixinCrashReport
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinMinecraftClient from fabric-networking-v0.mixins.json into net.minecraft.client.MinecraftClient
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinMinecraftClient from fabric-events-interaction-v0.mixins.json into net.minecraft.client.MinecraftClient
+[16:57:55] [main/DEBUG] (mixin) Mixing client.MixinMinecraftClient from fabric-registry-sync-v0.mixins.json into net.minecraft.client.MinecraftClient
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinMinecraftClient from fabric-events-lifecycle-v0.mixins.json into net.minecraft.client.MinecraftClient
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinMinecraftGame from fabric-resource-loader-v0.mixins.json into net.minecraft.client.MinecraftClient
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinDefaultResourcePack from fabric-resource-loader-v0.mixins.json into net.minecraft.resource.DefaultResourcePack
+[16:57:55] [main/INFO] (net.minecraft.client.MinecraftClient) Setting user: Player300
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinBootstrap from fabric-registry-sync-v0.mixins.json into net.minecraft.Bootstrap
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$initialize$1(Lnet/minecraft/fluid/Fluid;)Ljava/util/Collection; to md882e70$lambda$initialize$1$0 in fabric-registry-sync-v0.mixins.json:MixinBootstrap
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$initialize$0(Lnet/minecraft/block/Block;)Ljava/util/Collection; to md882e70$lambda$initialize$0$1 in fabric-registry-sync-v0.mixins.json:MixinBootstrap
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinIdRegistry from fabric-registry-sync-v0.mixins.json into net.minecraft.util.registry.SimpleRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$new$5([Lnet/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback;)Lnet/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback; to md882e70$lambda$new$5$0 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$null$4([Lnet/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback;Lnet/fabricmc/fabric/api/event/registry/RegistryIdRemapCallback$RemapState;)V to md882e70$lambda$null$4$1 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$new$3([Lnet/fabricmc/fabric/api/event/registry/RegistryEntryRemovedCallback;)Lnet/fabricmc/fabric/api/event/registry/RegistryEntryRemovedCallback; to md882e70$lambda$new$3$2 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$null$2([Lnet/fabricmc/fabric/api/event/registry/RegistryEntryRemovedCallback;ILnet/minecraft/util/Identifier;Ljava/lang/Object;)V to md882e70$lambda$null$2$3 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$new$1([Lnet/fabricmc/fabric/api/event/registry/RegistryEntryAddedCallback;)Lnet/fabricmc/fabric/api/event/registry/RegistryEntryAddedCallback; to md882e70$lambda$new$1$4 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$null$0([Lnet/fabricmc/fabric/api/event/registry/RegistryEntryAddedCallback;ILnet/minecraft/util/Identifier;Ljava/lang/Object;)V to md882e70$lambda$null$0$5 in fabric-registry-sync-v0.mixins.json:MixinIdRegistry
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinBlock from fabric-object-builders-v0.mixins.json into net.minecraft.block.Block
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinItem from fabric-object-builders-v0.mixins.json into net.minecraft.item.Item
+[16:57:55] [main/DEBUG] (mixin) Mixing idremap.MixinDimensionRawIndexFix from fabric-dimensions-v1.mixins.json into net.minecraft.world.dimension.DimensionType
+[16:57:55] [main/DEBUG] (mixin) Mixing PointOfInterestTypeAccessor from villagetweaker.mixins.json into net.minecraft.world.poi.PointOfInterestType
+[16:57:55] [main/DEBUG] (mixin) Renaming @Accessor method stateMap()Ljava/util/Map; to stateMap_$md$882e70$0 in villagetweaker.mixins.json:PointOfInterestTypeAccessor
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinIdList from fabric-registry-sync-v0.mixins.json into net.minecraft.util.IdList
+[16:57:55] [main/DEBUG] (mixin) Renaming synthetic method lambda$fabric_remapIds$0(Lit/unimi/dsi/fastutil/ints/Int2IntMap;Ljava/lang/Object;Ljava/lang/Integer;)Ljava/lang/Integer; to md882e70$lambda$fabric_remapIds$0$0 in fabric-registry-sync-v0.mixins.json:MixinIdList
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinFireBlock from fabric-content-registries-v0.mixins.json into net.minecraft.block.FireBlock
+[16:57:55] [main/DEBUG] (mixin) Mixing MaterialBuilderHooks from fabric-object-builders-v0.mixins.json into net.minecraft.block.Material$Builder
+[16:57:55] [main/DEBUG] (mixin) Mixing BlockSettingsHooks from fabric-object-builders-v0.mixins.json into net.minecraft.block.Block$Settings
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinBlockEntity from fabric-networking-blockentity-v0.mixins.json into net.minecraft.block.entity.BlockEntity
+[16:57:55] [main/DEBUG] (mixin) Mixing MixinBlockEntity from fabric-rendering-data-attachment-v1.mixins.json into net.minecraft.block.entity.BlockEntity
+[16:57:56] [main/DEBUG] (mixin) Mixing MixinAbstractFurnaceBlockEntity from fabric-content-registries-v0.mixins.json into net.minecraft.block.entity.AbstractFurnaceBlockEntity
+[16:57:56] [main/DEBUG] (mixin) Mixing MixinItemStack from fabric-events-lifecycle-v0.mixins.json into net.minecraft.item.ItemStack
+[16:57:56] [main/DEBUG] (mixin) Mixing MixinItemStack from fabric-tool-attribute-api-v1.mixins.json into net.minecraft.item.ItemStack
+[16:57:56] [main/DEBUG] (mixin) Mixing MixinItemGroup from fabric-item-groups-v0.mixins.json into net.minecraft.item.ItemGroup
+[16:57:56] [main/DEBUG] (mixin) Mixing client.MixinItemGroup from fabric-item-groups-v0.mixins.json into net.minecraft.item.ItemGroup
+[16:57:57] [main/DEBUG] (mixin) Mixing ServerPlayerEntityAccessor from fabric-containers-v0.mixins.json into net.minecraft.server.network.ServerPlayerEntity
+[16:57:57] [main/DEBUG] (mixin) Mixing MixinServerPlayerEntity from fabric-events-interaction-v0.mixins.json into net.minecraft.server.network.ServerPlayerEntity
+[16:57:57] [main/DEBUG] (mixin) Mixing MixinServerPlayerEntity from fabric-containers-v0.accurate.mixins.json into net.minecraft.server.network.ServerPlayerEntity
+[16:57:57] [main/DEBUG] (mixin) Mixing MixinTag from fabric-tag-extensions-v0.mixins.json into net.minecraft.tag.Tag
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinBiomeSource from fabric-biomes-v1.mixins.json into net.minecraft.world.biome.source.BiomeSource
+[16:57:58] [main/DEBUG] (mixin) Mixing idremap.MixinLevelProperties from fabric-dimensions-v1.mixins.json into net.minecraft.world.level.LevelProperties
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinVanillaLayeredBiomeSource from fabric-biomes-v1.mixins.json into net.minecraft.world.biome.source.VanillaLayeredBiomeSource
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinPlayerInventory from fabric-tool-attribute-api-v1.mixins.json into net.minecraft.entity.player.PlayerInventory
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinKeyBinding from fabric-keybindings-v0.mixins.json into net.minecraft.client.options.KeyBinding
+[16:57:58] [main/DEBUG] (mixin) Mixing KeyCodeAccessor from fabric-keybindings-v0.mixins.json into net.minecraft.client.options.KeyBinding
+[16:57:58] [main/DEBUG] (Fabric|Loader) Iterating over entrypoint 'main'
+[16:57:58] [main/DEBUG] (Fabric|Loader) Iterating over entrypoint 'client'
+[16:57:58] [main/INFO] (net.fabricmc.fabric.impl.client.indigo.Indigo) [Indigo] Registering Indigo renderer!
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinSpriteAtlasTexture from fabric-textures-v0.mixins.json into net.minecraft.client.texture.SpriteAtlasTexture
+[16:57:58] [main/DEBUG] (mixin) Mixing client.MixinSpriteAtlasTexture from fabric-renderer-api-v1.mixins.json into net.minecraft.client.texture.SpriteAtlasTexture
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinItemRenderer from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.item.ItemRenderer
+[16:57:58] [main/DEBUG] (mixin) Renaming synthetic method lambda$new$0()Lnet/fabricmc/fabric/impl/client/indigo/renderer/render/ItemRenderContext; to md882e70$lambda$new$0$0 in fabric-renderer-indigo.mixins.json:MixinItemRenderer
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.render.item.ItemRenderer
+[16:57:58] [main/DEBUG] (mixin) Mixing MixinGameOptions from fabric-keybindings-v0.mixins.json into net.minecraft.client.options.GameOptions
+[16:57:59] [main/INFO] (net.minecraft.client.MinecraftClient) Backend library: LWJGL version 3.2.2 build 10
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinReloadableResourceManagerImpl from fabric-resource-loader-v0.mixins.json into net.minecraft.resource.ReloadableResourceManagerImpl
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.resource.language.LanguageManager
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.texture.TextureManager
+[16:58:00] [main/DEBUG] (mixin) Mixing idremap.MixinLevelStorage from fabric-dimensions-v1.mixins.json into net.minecraft.world.level.storage.LevelStorage
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.sound.SoundLoader
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.font.FontManager
+[16:58:00] [main/DEBUG] (mixin) Mixing client.MixinBlockColorMap from fabric-registry-sync-v0.mixins.json into net.minecraft.client.color.block.BlockColors
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinBlockColorMap from fabric-rendering-v1.mixins.json into net.minecraft.client.color.block.BlockColors
+[16:58:00] [main/DEBUG] (mixin) Mixing client.MixinItemColorMap from fabric-registry-sync-v0.mixins.json into net.minecraft.client.color.item.ItemColors
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinItemColorMap from fabric-rendering-v1.mixins.json into net.minecraft.client.color.item.ItemColors
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.render.model.BakedModelManager
+[16:58:00] [main/DEBUG] (mixin) Mixing client.MixinItemModelMap from fabric-registry-sync-v0.mixins.json into net.minecraft.client.render.item.ItemModels
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinEntityRenderDispatcher from fabric-renderer-registries-v1.mixins.json into net.minecraft.client.render.entity.EntityRenderDispatcher
+[16:58:00] [main/DEBUG] (mixin) Mixing MixinModelLoader from fabric-models-v0.mixins.json into net.minecraft.client.render.model.ModelLoader
+[16:58:01] [main/DEBUG] (mixin) Mixing client.MixinBakedModel from fabric-renderer-api-v1.mixins.json into net.minecraft.client.render.model.BakedModel
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.render.block.BlockRenderManager
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinBlockModelRenderer from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.block.BlockModelRenderer
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinAmbientOcclusionCalculator from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.block.BlockModelRenderer$AmbientOcclusionCalculator
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinFluidRenderer from fabric-rendering-fluids-v1.mixins.json into net.minecraft.client.render.block.FluidRenderer
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Client from fabric-resource-loader-v0.mixins.json into net.minecraft.client.render.WorldRenderer
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinWorldRenderer from fabric-rendering-v1.mixins.json into net.minecraft.client.render.WorldRenderer
+[16:58:01] [main/DEBUG] (mixin) Mixing client.MixinParticleManager from fabric-registry-sync-v0.mixins.json into net.minecraft.client.particle.ParticleManager
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinParticleManager from fabric-particles-v1.mixins.json into net.minecraft.client.particle.ParticleManager
+[16:58:01] [main/DEBUG] (mixin) Mixing MixinInGameHud from fabric-rendering-v1.mixins.json into net.minecraft.client.gui.hud.InGameHud
+[16:58:01] [main/DEBUG] (mixin) Mixing client.MixinDebugHud from fabric-renderer-api-v1.debughud.mixins.json into net.minecraft.client.gui.hud.DebugHud
+[16:58:01] [main/INFO] (com.mojang.text2speech.NarratorWindows) Narrator library for x64 successfully loaded
+[16:58:01] [main/INFO] (net.minecraft.resource.ReloadableResourceManagerImpl) Reloading ResourceManager: Default, Fabric Networking Block Entity (v0), Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Fabric Containers (v0), Fabric Biomes (v1), Fabric Crash Report Info (v1), Fabric Events Interaction (v0), VillageTweaker, Fabric API Base, Fabric Rendering (v0), Fabric Rendering (v1), Fabric Rendering Data Attachment (v1), Fabric Resource Loader (v0), Fabric Textures (v0), Fabric Content Registries (v0), Fabric Tag Extensions (v0), Fabric Rendering Fluids (v1), Fabric Registry Sync (v0), Fabric Commands (v0), Fabric BlockRenderLayer Registration (v1), Fabric Mining Levels (v0), Fabric Renderer Registries (v1), Fabric Events Lifecycle (v0), Fabric Loot Tables (v1), Fabric API, Fabric Models (v0), Fabric Item Groups (v0), Fabric Networking (v0), Fabric Object Builders (v0)
+[16:58:03] [Realms Notification Availability checker #1/INFO] (com.mojang.realmsclient.client.RealmsClient) Could not authorize you against Realms server: Invalid session id
+[16:58:08] [main/INFO] (net.minecraft.client.sound.SoundEngine) OpenAL initialized.
+[16:58:08] [main/INFO] (net.minecraft.client.sound.SoundSystem) Sound engine started
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16:58:08] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:58:09] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:58:09] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:58:09] [main/INFO] (net.minecraft.client.texture.SpriteAtlasTexture) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16:58:17] [main/DEBUG] (mixin) Mixing MixinMinecraftServer from fabric-events-lifecycle-v0.mixins.json into net.minecraft.server.MinecraftServer
+[16:58:17] [main/DEBUG] (mixin) Mixing MixinMinecraftServer from fabric-resource-loader-v0.mixins.json into net.minecraft.server.MinecraftServer
+[16:58:23] [main/DEBUG] (mixin) Mixing MixinBlockRenderLayer from fabric-blockrenderlayer-v1.mixins.json into net.minecraft.client.render.RenderLayers
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinBlockEntityRenderDispatcher from fabric-renderer-registries-v1.mixins.json into net.minecraft.client.render.block.entity.BlockEntityRenderDispatcher
+[16:58:40] [main/DEBUG] (mixin) Renaming synthetic method lambda$init$0(Lnet/minecraft/block/entity/BlockEntityType;Ljava/util/function/Function;)V to md882e70$lambda$init$0$0 in fabric-renderer-registries-v1.mixins.json:MixinBlockEntityRenderDispatcher
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinWorldSaveHandler from fabric-registry-sync-v0.mixins.json into net.minecraft.world.WorldSaveHandler
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinPlayerManager from fabric-networking-v0.mixins.json into net.minecraft.server.PlayerManager
+[16:58:40] [main/DEBUG] (mixin) Mixing idremap.MixinPlayerManager from fabric-dimensions-v1.mixins.json into net.minecraft.server.PlayerManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinPlayerManager from fabric-registry-sync-v0.mixins.json into net.minecraft.server.PlayerManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinCommandManagerIntegrated from fabric-commands-v0.mixins.json into net.minecraft.server.command.CommandManager
+[16:58:40] [main/DEBUG] (mixin) Renaming synthetic method lambda$addMethods$0(Ljava/util/function/Consumer;)V to md882e70$lambda$addMethods$0$0 in fabric-commands-v0.mixins.json:MixinCommandManagerIntegrated
+[16:58:40] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:58:40] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:58:40] [main/WARN] (net.minecraft.server.command.CommandManager) Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Server from fabric-resource-loader-v0.mixins.json into net.minecraft.recipe.RecipeManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Server from fabric-resource-loader-v0.mixins.json into net.minecraft.tag.RegistryTagManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinLootManager from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootManager
+[16:58:40] [main/DEBUG] (mixin) Renaming synthetic method lambda$apply$2(Lnet/minecraft/resource/ResourceManager;Ljava/util/Map;Lnet/minecraft/util/Identifier;Lnet/minecraft/loot/LootTable;)V to md882e70$lambda$apply$2$0 in fabric-loot-tables-v1.mixins.json:MixinLootManager
+[16:58:40] [main/DEBUG] (mixin) Renaming synthetic method lambda$null$1(Lnet/fabricmc/fabric/api/loot/v1/FabricLootSupplierBuilder;Lnet/minecraft/util/Identifier;)Lnet/minecraft/loot/LootTable; to md882e70$lambda$null$1$1 in fabric-loot-tables-v1.mixins.json:MixinLootManager
+[16:58:40] [main/DEBUG] (mixin) Renaming synthetic method lambda$null$0(Ljava/util/Map;Lnet/minecraft/util/Identifier;Lnet/minecraft/loot/LootTable;)V to md882e70$lambda$null$0$2 in fabric-loot-tables-v1.mixins.json:MixinLootManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Server from fabric-resource-loader-v0.mixins.json into net.minecraft.loot.LootManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinLootPool from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootPool
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinLootSupplier from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootTable
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Server from fabric-resource-loader-v0.mixins.json into net.minecraft.server.ServerAdvancementLoader
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinKeyedResourceReloadListener$Server from fabric-resource-loader-v0.mixins.json into net.minecraft.server.function.CommandFunctionManager
+[16:58:40] [main/DEBUG] (mixin) Mixing MixinServerPlayerInteractionManager from fabric-events-interaction-v0.mixins.json into net.minecraft.server.network.ServerPlayerInteractionManager
+[16:58:40] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Starting integrated minecraft server version 1.15.2
+[16:58:40] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Generating keypair
+[16:58:40] [Server thread/INFO] (net.minecraft.world.WorldSaveHandler) [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:58:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Found new data pack fabric/fabric-tool-attribute-api-v1, loading it automatically
+[16:58:40] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Found new data pack vanilla, loading it automatically
+[16:58:40] [Server thread/INFO] (net.minecraft.resource.ReloadableResourceManagerImpl) Reloading ResourceManager: Default, Fabric Tool Attribute API (v1)
+[16:58:40] [Server-Worker-7/DEBUG] (mixin) Mixing MixinTagBuilder from fabric-tag-extensions-v0.mixins.json into net.minecraft.tag.Tag$Builder
+[16:58:41] [Server thread/INFO] (net.minecraft.recipe.RecipeManager) Loaded 6 recipes
+[16:58:41] [Server thread/DEBUG] (mixin) Mixing LootSupplierBuilderHooks from fabric-loot-tables-v1.mixins.json into net.minecraft.loot.LootTable$Builder
+[16:58:41] [Server thread/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 825 advancements
+[16:58:41] [Server thread/DEBUG] (mixin) Mixing MixinThreadedAnvilChunkStorage from fabric-networking-v0.mixins.json into net.minecraft.server.world.ThreadedAnvilChunkStorage
+[16:58:41] [Server thread/DEBUG] (mixin) Mixing MixinPortalForcer from fabric-dimensions-v1.mixins.json into net.minecraft.world.PortalForcer
+[16:58:41] [Server-Worker-6/DEBUG] (mixin) Mixing StructurePoolRegistryMixin from villagetweaker.mixins.json into net.minecraft.structure.pool.StructurePoolRegistry
+[16:58:41] [Server-Worker-6/DEBUG] (mixin) Mixing StructurePoolAccessor from villagetweaker.mixins.json into net.minecraft.structure.pool.StructurePool
+[16:58:42] [Server thread/DEBUG] (mixin) Mixing idremap.MixinUnmodifiableLevelProperties from fabric-dimensions-v1.mixins.json into net.minecraft.world.level.UnmodifiableLevelProperties
+[16:58:42] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Preparing start region for dimension minecraft:overworld
+[16:58:42] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 0%
+[16:58:43] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 2%
+[16:58:43] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 6%
+[16:58:43] [Server thread/DEBUG] (mixin) Mixing MixinEntityTracker from fabric-networking-v0.mixins.json into net.minecraft.server.world.ThreadedAnvilChunkStorage$EntityTracker
+[16:58:44] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 11%
+[16:58:44] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 17%
+[16:58:45] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 25%
+[16:58:45] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 32%
+[16:58:46] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 40%
+[16:58:46] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 48%
+[16:58:47] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 57%
+[16:58:47] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 65%
+[16:58:48] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 73%
+[16:58:48] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 82%
+[16:58:49] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 90%
+[16:58:49] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Preparing spawn area: 98%
+[16:58:49] [main/INFO] (net.minecraft.server.WorldGenerationProgressLogger) Time elapsed: 7101 ms
+[16:58:49] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Changing view distance to 11, from 10
+[16:58:50] [Server thread/DEBUG] (mixin) Mixing MixinServerPlayNetworkHandler from fabric-networking-v0.mixins.json into net.minecraft.server.network.ServerPlayNetworkHandler
+[16:58:50] [Server thread/DEBUG] (mixin) Mixing MixinServerPlayNetworkHandler from fabric-events-interaction-v0.mixins.json into net.minecraft.server.network.ServerPlayNetworkHandler
+[16:58:50] [Netty Local Client IO #0/DEBUG] (mixin) Mixing MixinCustomPayloadC2SPacket from fabric-networking-v0.mixins.json into net.minecraft.network.packet.c2s.play.CustomPayloadC2SPacket
+[16:58:50] [Netty Local Client IO #0/DEBUG] (mixin) Mixing MixinClientPlayNetworkHandler from fabric-networking-v0.mixins.json into net.minecraft.client.network.ClientPlayNetworkHandler
+[16:58:50] [Netty Local Client IO #0/DEBUG] (mixin) Mixing MixinClientPlayNetworkHandler from fabric-networking-blockentity-v0.mixins.json into net.minecraft.client.network.ClientPlayNetworkHandler
+[16:58:50] [Server thread/INFO] (net.minecraft.server.PlayerManager) Player300[local:E:8a183f55] logged in with entity id 65 at (-17.5, 4.0, 57.5)
+[16:58:50] [main/DEBUG] (mixin) Mixing MixinClientPlayerInteractionManager from fabric-events-interaction-v0.mixins.json into net.minecraft.client.network.ClientPlayerInteractionManager
+[16:58:50] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Player300 joined the game
+[16:58:50] [main/DEBUG] (mixin) Mixing MixinChunkRenderer from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$BuiltChunk
+[16:58:50] [main/DEBUG] (mixin) Mixing MixinChunkRebuildTask from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$BuiltChunk$RebuildTask
+[16:58:50] [main/DEBUG] (mixin) Mixing MixinChunkRenderData from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkBuilder$ChunkData
+[16:58:50] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[16:58:50] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:overworld
+[16:58:51] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 0 advancements
+[16:58:51] [main/DEBUG] (mixin) Mixing MixinChunkRendererRegion from fabric-renderer-indigo.mixins.json into net.minecraft.client.render.chunk.ChunkRendererRegion
+[16:58:51] [main/DEBUG] (mixin) Mixing client.MixinChunkRendererRegion from fabric-rendering-data-attachment-v1.mixins.json into net.minecraft.client.render.chunk.ChunkRendererRegion
+[16:58:51] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:the_end
+[16:58:51] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:the_nether
+[16:58:51] [Server-Worker-9/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Opening connection to https://sessionserver.mojang.com/session/minecraft/profile/dc5bf89f805c3c6b8f7515e42fa5be8f?unsigned=true
+[16:58:51] [Server-Worker-9/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Reading data from https://sessionserver.mojang.com/session/minecraft/profile/dc5bf89f805c3c6b8f7515e42fa5be8f?unsigned=true
+[16:58:51] [Server-Worker-9/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Successful read, server response was 204
+[16:58:51] [Server-Worker-9/DEBUG] (com.mojang.authlib.HttpAuthenticationService) Response: 
+[16:58:51] [Server-Worker-9/DEBUG] (com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService) Couldn't fetch profile properties for com.mojang.authlib.GameProfile@672d0ba6[id=dc5bf89f-805c-3c6b-8f75-15e42fa5be8f,name=Player300,properties={},legacy=false] as the profile does not exist
+[16:59:04] [main/DEBUG] (mixin) Mixing client.MixinCreativePlayerInventoryGui from fabric-item-groups-v0.mixins.json into net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen
+[16:59:09] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 5 advancements
+[16:59:19] [main/WARN] (net.minecraft.client.sound.SoundSystem) Unable to play empty soundEvent: minecraft:entity.slime.jump_small
+[16:59:20] [main/WARN] (net.minecraft.client.sound.SoundSystem) Unable to play empty soundEvent: minecraft:entity.slime.squish_small
+[16:59:41] [main/INFO] (net.minecraft.advancement.AdvancementManager) Loaded 39 advancements
+[16:59:50] [main/INFO] (net.minecraft.client.gui.hud.ChatHud) [CHAT] Saved screenshot as 2020-04-30_16.59.50.png
+[16:59:52] [Server thread/INFO] (net.minecraft.server.integrated.IntegratedServer) Saving and pausing game...
+[16:59:52] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:overworld
+[16:59:52] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:the_end
+[16:59:52] [Server thread/INFO] (net.minecraft.server.MinecraftServer) Saving chunks for level 'pooe'/minecraft:the_nether

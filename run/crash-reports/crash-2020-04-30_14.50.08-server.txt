@@ -1,0 +1,84 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 4/30/20 2:50 PM
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: Could not initialize class net.minecraft.village.TradeOffers
+	at net.minecraft.entity.passive.VillagerEntity.fillRecipes(VillagerEntity.java:867)
+	at net.minecraft.entity.passive.AbstractTraderEntity.getOffers(AbstractTraderEntity.java:111)
+	at net.minecraft.entity.passive.VillagerEntity.interactMob(VillagerEntity.java:318)
+	at net.minecraft.entity.mob.MobEntity.interact(MobEntity.java:1028)
+	at net.minecraft.entity.player.PlayerEntity.interact(PlayerEntity.java:1059)
+	at net.minecraft.server.network.ServerPlayNetworkHandler.onPlayerInteractEntity(ServerPlayNetworkHandler.java:1175)
+	at net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket.apply(PlayerInteractEntityC2SPacket.java:68)
+	at net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket.apply(PlayerInteractEntityC2SPacket.java:13)
+	at net.minecraft.network.NetworkThreadUtils.method_11072(NetworkThreadUtils.java:21)
+	at net.minecraft.server.ServerTask.run(ServerTask.java:18)
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:144)
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:743)
+	at net.minecraft.server.MinecraftServer.executeTask(MinecraftServer.java:138)
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:118)
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:725)
+	at net.minecraft.server.MinecraftServer.runTask(MinecraftServer.java:719)
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:103)
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:659)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1230214240 bytes (1173 MB) / 1622671360 bytes (1547 MB) up to 3817865216 bytes (3641 MB)
+	CPUs: 6
+	JVM Flags: 1 total; -Xmx4096m
+	Fabric Mods: 
+		fabric: Fabric API 0.7.1+build.301-1.15
+		fabric-api-base: Fabric API Base 0.1.2+b7f9825d0c
+		fabric-biomes-v1: Fabric Biomes (v1) 0.1.5+3b05f68e0c
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.4+c6a8ea890c
+		fabric-climbable-api-v1: Fabric Climbable API (v1) 1.0.0+e40501d40c
+		fabric-commands-v0: Fabric Commands (v0) 0.1.2+b7f9825d0c
+		fabric-containers-v0: Fabric Containers (v0) 0.1.3+b7f9825d0c
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.1.3+b7f9825d0c
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.2+b7f9825d0c
+		fabric-dimensions-v1: fabric-dimensions-v1 0.3.0+2ad156310c
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.3.0+fac69e320c
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.1.2+003643510c
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.1.6+ec40b2e10c
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.1.1+dfdb52d60c
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 0.1.5+e08a73050c
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.2+ec951ea40c
+		fabric-models-v0: Fabric Models (v0) 0.1.0+dfdb52d60c
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.3+e08a73050c
+		fabric-networking-v0: Fabric Networking (v0) 0.1.7+003643510c
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.1.4+ec951ea40c
+		fabric-particles-v1: fabric-particles-v1 0.1.2+ad2f81bd0c
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.2.6+f3d8141b0c
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.2.10+f08b61330c
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.2.23+9290e2ed0c
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 2.0.1+5a0f9a600c
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.3+b7f9825d0c
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.6+12515ed90c
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.0+534104900c
+		fabric-rendering-v1: Fabric Rendering (v1) 0.1.0+003643510c
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.1.10+06c939b30c
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 0.1.3+abd915800c
+		fabric-textures-v0: Fabric Textures (v0) 1.0.4+821cdba70c
+		fabric-tool-attribute-api-v1: Fabric Tool Attribute API (v1) 1.0.2+915c44630c
+		fabricloader: Fabric Loader 0.8.2+build.194
+		minecraft: Minecraft 1.15.2
+		villagetweaker: VillageTweaker 1.0.0
+	Player Count: 1 / 8; [ServerPlayerEntity['Player237'/367, l='villidger flower', x=-94.71, y=65.78, z=19.80]]
+	Data Packs: vanilla, fabric/fabric-tool-attribute-api-v1 (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'
