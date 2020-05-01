@@ -1,7 +1,7 @@
 # VillageTweaker
 Fork of Structurized by Draylar
 
-VillageTweaker is an library for Fabric that allows for the easy addition of villager types, professions, and structures.
+VillageTweaker is a library for Fabric that allows for the easy addition of villager types, professions, and structures.
 
 Define a simple point of interest type (workstation)
 ```java
