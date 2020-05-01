@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
 
 public class FabricTrades {
 
-    static class BasicTradeFactory implements TradeOffers.Factory {
+    public static class BasicTradeFactory implements TradeOffers.Factory {
         private final ItemStack sell;
         private final ItemStack buy;
         private final int maxUses;
@@ -72,7 +72,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellMapFactory implements TradeOffers.Factory {
+    public static class SellMapFactory implements TradeOffers.Factory {
         private final int price;
         private final String structure;
         private final MapIcon.Type iconType;
@@ -106,7 +106,7 @@ public class FabricTrades {
         }
     }
 
-    static class EnchantBookFactory implements TradeOffers.Factory {
+    public static class EnchantBookFactory implements TradeOffers.Factory {
         private final int experience;
 
         public EnchantBookFactory(int experience) {
@@ -130,7 +130,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellDyedArmorFactory implements TradeOffers.Factory {
+    public static class SellDyedArmorFactory implements TradeOffers.Factory {
         private final Item sell;
         private final int price;
         private final int maxUses;
@@ -172,7 +172,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellPotionHoldingItemFactory implements TradeOffers.Factory {
+    public static class SellPotionHoldingItemFactory implements TradeOffers.Factory {
         private final ItemStack sell;
         private final int sellCount;
         private final int price;
@@ -202,7 +202,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellEnchantedToolFactory implements TradeOffers.Factory {
+    public static class SellEnchantedToolFactory implements TradeOffers.Factory {
         private final ItemStack tool;
         private final int basePrice;
         private final int maxUses;
@@ -230,7 +230,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellSuspiciousStewFactory implements TradeOffers.Factory {
+    public static class SellSuspiciousStewFactory implements TradeOffers.Factory {
         final StatusEffect effect;
         final int duration;
         final int experience;
@@ -250,7 +250,7 @@ public class FabricTrades {
         }
     }
 
-    static class SellItemForEmeraldsFactory implements TradeOffers.Factory {
+    public static class SellItemForEmeraldsFactory implements TradeOffers.Factory {
         private final ItemStack sell;
         private final int price;
         private final int count;
@@ -288,33 +288,31 @@ public class FabricTrades {
         }
     }
 
-    static class TypeAwareBuyForOneEmeraldFactory implements TradeOffers.Factory {
+    public static class TypeAwareBuyForOneEmeraldFactory implements TradeOffers.Factory {
         private final Map<VillagerType, Item> map;
+        private final ItemStack defaultItemStack;
         private final int count;
         private final int maxUses;
         private final int experience;
 
-        public TypeAwareBuyForOneEmeraldFactory(int count, int maxUses, int experience, Map<VillagerType, Item> villagerTypeToItem) {
-            Registry.VILLAGER_TYPE.stream().filter((villagerType) -> !villagerTypeToItem.containsKey(villagerType)).findAny().ifPresent((villagerType) -> {
-                throw new IllegalStateException("Missing trade for villager type: " + Registry.VILLAGER_TYPE.getId(villagerType));
-            });
+        public TypeAwareBuyForOneEmeraldFactory(int count, int maxUses, int experience, Map<VillagerType, Item> villagerTypeToItem, ItemStack defaultItemStack) {
+            this.defaultItemStack = defaultItemStack;
             this.map = villagerTypeToItem;
             this.count = count;
             this.maxUses = maxUses;
             this.experience = experience;
         }
-        //nullable
         public TradeOffer create(Entity entity, Random random) {
             if (entity instanceof VillagerDataContainer) {
-                ItemStack itemStack = new ItemStack(this.map.get(((VillagerDataContainer)entity).getVillagerData().getType()), this.count);
-                return new TradeOffer(itemStack, new ItemStack(Items.EMERALD), this.maxUses, this.experience, 0.05F);
+                ItemStack stack = new ItemStack(this.map.getOrDefault(((VillagerDataContainer)entity).getVillagerData().getType(), Items.OAK_BOAT), this.count);
+                return new TradeOffer(stack, new ItemStack(Items.EMERALD), this.maxUses, this.experience, 0.05F);
             } else {
                 return null;
             }
         }
     }
 
-    static class BuyForOneEmeraldFactory implements TradeOffers.Factory {
+    public static class BuyForOneEmeraldFactory implements TradeOffers.Factory {
         private final Item buy;
         private final int price;
         private final int maxUses;
