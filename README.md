@@ -1,31 +1,55 @@
-# Structurized
-[![](https://jitpack.io/v/Draylar/structurized.svg)](https://jitpack.io/#Draylar/structurized)
-[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+# VillageTweaker
+Fork of Structurized by Draylar
 
-Structurized is a simple library focused on providing utilities for structures, features, jigsaws, and other world gen.
+VillageTweaker is an library for Fabric that allows for the easy addition of villager types, professions, and structures.
 
-### Installation
-
-`build.gradle`:
+Define a simple point of interest type (workstation)
 ```java
-repositories {
-	...
-	maven { url 'https://jitpack.io' }
+public static final FabricPointOfInterestType EXAMPLE_POI = new FabricPointOfInterestType(
+    new Identifier("example", "example"),
+    Blocks.BLACK_WOOL, //workstation block
+    1, //ticket count
+    1 //search distance
+);
+```
+Register it
+```java
+@Override
+public void onInitialize() {
+    [...]
+    VillageTweaker.registerPOI(EXAMPLE_POI);
 }
 ```
-```groovy
-dependencies {
-	implementation 'com.github.Draylar:structurized:master-SNAPSHOT'
+Define a villager profession
+```java
+public static final FabricVillagerProfession EXAMPLE_VILLAGER = new FabricVillagerProfession(
+    new Identifier("example", "example"),
+    EXAMPLE_POI, //workstation
+    ImmutableSet.of(), //gatherable items (like farmers and seeds) ImmutableSet<Item>
+    ImmutableSet.of(), //secondary job sites ImmutableSet<Block>
+    SoundEvents.ENTITY_SHEEP_AMBIENT //work sound
+);
+```
+Register it
+```java
+@Override
+public void onInitialize() {
+    [...]
+    VillageTweaker.registerProfession(EXAMPLE_VILLAGER);
 }
 ```
-
-
-### Jigsaw Modification
-Structurized currently provides a callback that allows you to modify `StructurePool`s in jigsaws such as villages. Say we wanted to add `village/desert/houses/desert_small_house_1` to the plains house pool:
+Add a village house (assuming you configured the jigsaw blocks and stuff to the right pool)
 ```java
-StructurePoolAddCallback.EVENT.register(structurePool -> {
-    if(structurePool.getUnderlying().getId().toString().equals("minecraft:village/plains/houses")) {
-        structurePool.addStructurePoolElement(new SinglePoolElement("village/desert/houses/desert_small_house_1"), 50);
-    }
-});
+@Override
+public void onInitialize() {
+    [...]
+    VillageTweaker.addStructureToPool(
+        "minecraft:village/plains/houses", //pool to add to
+        "minecraft:village/snowy/houses/snowy_fisher_cottage",  //your structure
+        25 //weight
+    );
+}
 ```
+![Results](https://github.com/FoundationGames/MinecraftUtilsDownloads/raw/master/villagetweaker/showcase.png)<br>
+Here are the results! (This library comes with textures for the example:example villager)<br>
+More features on the way... dont use any other features because they are extremely broken and not finished
